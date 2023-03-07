@@ -158,7 +158,7 @@ kubectl get nodes
 
 在您创建的新集群上部署Kubernetes仪表板。在终端窗口中，输入以下命令。
 
-```
+```shell
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.1.0/aio/deploy/recommended.yaml
 ```
 
@@ -166,7 +166,7 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.1.0/a
 
 在文本编辑器中，创建一个名为`oke-admin-service-account.yaml`的文件，内容如下。该文件定义了一个管理员服务账户和一个集群rolebinding，都叫做"oke-admin"。
 
-```
+```yaml
 apiVersion: v1
    kind: ServiceAccount
    metadata:

@@ -10,8 +10,8 @@ import ssl
 SENDER = 'admin@oracle-work.com'
 SENDERNAME = 'Admin OrcWrk'
 
-FROM = 'chenwb2019@gmail.com'
-FROMNAME = 'chenwb2019 (sent by admin@oracle-work.com on behalf of chenwb2019@gmail.com)'
+FROM = 'admin@oracle-work.com'
+FROMNAME = 'Admin OrcWrk (sent by 123@qq.com on behalf of 123@qq.com)'
  
 # Replace recipient@example.com with a "To" address. If your account
 # is still in the sandbox, this address must be verified.

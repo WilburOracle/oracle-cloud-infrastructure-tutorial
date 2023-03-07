@@ -11,7 +11,7 @@ SENDER = 'admin@oracle-work.com'
 SENDERNAME = 'Admin OrcWrk'
 
 FROM = 'chenwb2019@gmail.com'
-FROMNAME = 'chenwb2019 (sent by admin@oracle-work.com on behalf of chenwb2019@gmail.com)'
+FROMNAME = 'Admin OrcWrk (sent by 123@qq.com on behalf of 123@qq.com)'
  
 # Replace recipient@example.com with a "To" address. If your account
 # is still in the sandbox, this address must be verified.
@@ -47,7 +47,7 @@ BODY_HTML = """<html>
    <p> Hi, Chenwb</p>
    <br/>
    <p>I'm glad you can attend this conference. 
-    <br/>Your ticket verification code is: <b>ef-ha20543</b>.Please attend the conference at Shenzhen Convention and Exhibition Center on 10/22/2022. Please show your verification code when you enter</p>
+    <br/>Your ticket verification code is: <b>ef-ha20544</b>.Please attend the conference at Shenzhen Convention and Exhibition Center on 10/22/2022. Please show your verification code when you enter</p>
     <br/>
      <br/>
       <br/>

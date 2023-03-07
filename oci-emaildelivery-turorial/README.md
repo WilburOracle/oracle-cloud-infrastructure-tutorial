@@ -175,6 +175,9 @@ else:
 | --- | --- | --- | 
 | SENDER | 发件人邮箱 | OCI ==> Developer Services ==> Application Integeration ==> Email Delivery ==> Email domains ==>  选择你的域名  ==> approved Senders 中显示的邮箱名，任意一个都可以发送 |
 | SENDERNAME | 发件人姓名 | 按各自情况填写即可 |
+| FROM | 代发人邮箱 | OCI ==> Developer Services ==> Application Integeration ==> Email Delivery ==> Email domains ==>  选择你的域名  ==> approved Senders 中显示的邮箱名，任意一个都可以发送 |
+| FROMNAME | 代发人名称 | 按各自情况填写即可 |
+| BODY | 邮件正文 | 按各自情况填写即可 |
 | RECIPIENT | 收件人邮箱 | 真实的能收件的邮箱地址即可 |
 | USERNAME_SMTP | 登录账号 | OCI ==> Identity & Security ==> Identity ==> Users ==> 选择1.2.2.b中创建的用户 ==> SMTP Credentials 中的Username那一列的值 |
 | PASSWORD_SMTP_FILE | 密码文件 | 将1.2.2.c中保存下来的密码存到和本python脚本同一个目录的文件中。如果忘记了密码，就删掉 SMTP Credential 再重新创建一个 |
@@ -182,4 +185,12 @@ else:
 # 3.参考应用
 
 https://mytechretreat.com/send-emails-from-your-custom-app-with-oci-email-delivery-and-oci-functions/
+
+# 4.参考文档
+
+OCI Email Delivery 文档：https://docs.oracle.com/en-us/iaas/Content/Email/home.htm
+
+OCI Email Delivery API 文档： https://docs.oracle.com/en-us/iaas/api/#/en/emaildelivery/20170907/
+
+OCI Python SDK Email 功能：https://oracle-cloud-infrastructure-python-sdk.readthedocs.io/en/latest/api/email.html#models
 
